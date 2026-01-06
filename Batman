@@ -231,8 +231,13 @@ export default function SkillMortalityRadar() {
           ))}
         </div>
 
-        <div className="text-center text-sm text-gray-600 border-t border-gray-900 pt-8">
-          Data synthesized from market demand signals and technology adoption curves.
+        <div className="text-center text-sm text-gray-600 border-t border-gray-900 pt-8 space-y-1">
+          <div>
+            Data synthesized from market demand signals and technology adoption curves.
+          </div>
+          <div className="text-gray-700 text-xs">
+            Created by Abdul Gafur
+          </div>
         </div>
       </div>
     </div>
